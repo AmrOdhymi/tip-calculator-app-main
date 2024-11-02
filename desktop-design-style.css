@@ -1,0 +1,221 @@
+body{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(185, 41%, 84%);
+    font-weight: bold;
+}
+.logo{
+    margin-bottom: 50px;
+}
+.contener{
+    background-color: white;
+    border-radius: 10px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 20px;
+}
+.left-side{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 10px;
+}
+.title{
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+.cross input{
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsla(172, 67%, 45%, 0.208);
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cross{
+    position: relative;
+}
+.cross img{
+    position: absolute;
+    width: 15px;
+    left: 5%;
+    top: 60%;
+}
+
+.cross input:focus{
+    outline: none;
+    border: 3px solid hsl(172, 67%, 45%);
+}
+
+
+
+
+
+
+.section-2{
+    margin: 10px 0px;
+    width: 420px;
+}
+
+.tip-box{
+    display: grid;
+    grid-template-columns: repeat(3, 133px);
+    /* grid-template-rows: repeat(2, ); */
+    gap: 10px;
+}
+.tip-box input{
+    padding: 10px;
+    border: none;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.tip-box input::placeholder{
+    text-align: center;
+    color: hsl(186, 14%, 43%);
+}
+
+
+.Number-People{
+    margin: 50px 0;
+}
+
+input[type=number]::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+
+
+
+.rghit-side{
+    width: 450px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(185, 41%, 84%);
+    font-weight: bold;
+}
+.logo{
+    margin-bottom: 20px;
+}
+.contener{
+    background-color: white;
+    border-radius: 10px;
+    width: 925px;
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 40px;
+    gap: 50px;
+}
+.left-side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.title-p{
+    text-align: start;
+    margin: 5px;
+}
+
+.num input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsla(172, 67%, 45%, 0.208);
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
+.num{
+    position: relative;
+}
+.num img{
+    position: absolute;
+    width: 20px;
+    left: 5%;
+    top: 45%;
+}
+
+.num input:focus{
+    outline: none;
+    border: 3px solid hsl(172, 67%, 45%);
+}
+
+.tip{
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.tip-box{
+    display: grid;
+    grid-template-columns: repeat(3, 30fr);
+    grid-template-rows: repeat(2, 50%);
+    gap: 10px;
+}
+.tip-box input{
+    padding: 10px;
+}
+
+
+.Number-People{
+    margin: 50px 0;
+}
+
+
+
+.rghit-side{
+    width: 50%;
+    background-color: hsl(183, 100%, 15%);
+} */
