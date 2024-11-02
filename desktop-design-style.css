@@ -1,3 +1,11 @@
+   /* background-color:  hsl(183, 100%, 15%); */
+   /* background-color:  hsl(186, 14%, 43%); */
+   /* background-color:  hsl(184, 14%, 56%); */
+   /* background-color:  hsl(185, 41%, 84%); */
+   /* background-color:  hsl(189, 41%, 97%); */
+   /* background-color:  hsl(0, 0%, 100%); */
+
+
 body{
     margin: 50px auto;
     display: flex;
@@ -5,7 +13,15 @@ body{
     align-items: center;
     background-color: hsl(185, 41%, 84%);
     font-weight: bold;
+    font-family: SpaceMono;
 }
+
+@font-face{
+    src: url(Font/SpaceMono-Bold.ttf);
+    font-family: SpaceMono;
+}
+
+
 .logo{
     margin-bottom: 50px;
 }
@@ -28,6 +44,7 @@ body{
 .title{
     text-align: start;
     margin-bottom: 5px;
+    color: hsl(186, 14%, 43%);
 }
 
 .cross input{
@@ -101,23 +118,54 @@ input[type=number]::-webkit-inner-spin-button{
     width: 450px;
     background-color: hsl(183, 100%, 15%);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 60px;
 }
 
 
+.section-4 , .section-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section-4 .amount p , .section-5 .price p{
+    font-size: 40px;
+    color:  hsl(172, 67%, 45%);
+}
+
+.type p{
+    margin: 0;
+}
+.type{
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rghit-side input{
+   background-color:  hsl(172, 67%, 45%);
+   border: none;
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: bold;
+   color:  hsl(183, 100%, 15%);
+}
 
 
+.type p:first-child{
+    color: white;
+}
+.type p:nth-child(2){
+    color:  hsl(184, 14%, 56%);
+}
 
 
+.section-4 .amount p , .section-5 .price p{
 
-
-
-
-
-
-
-
-
-
+}
 
 
 
