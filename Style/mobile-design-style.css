@@ -28,12 +28,11 @@ input{
 
 
 .left-side{
-    width: 370px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     padding: 10px;
-    position: relative;
+    
 }
 .title{
     text-align: start;
@@ -42,7 +41,7 @@ input{
 }
 
 .cross input{
-    width: 350px;
+    width: 335px;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -72,15 +71,15 @@ input{
 
 
 .section-2{
-    margin: 10px 0px;
-    width: 350px;
+    margin: 10px 0px 50px;
+    position: relative;
 }
 
 .tip-box{
     display: grid;
-    grid-template-columns: repeat(2, 180px);
+    grid-template-columns: repeat(2, 45%);
     /* grid-template-rows: repeat(2, ); */
-    gap: 10px;
+    gap: 10%;
 }
 .tip-box input{
     padding: 10px;
@@ -114,12 +113,11 @@ input[type=number]::-webkit-inner-spin-button{
 
 
 .rghit-side{
-    width: 270px;
     background-color: hsl(183, 100%, 15%);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    padding: 30px 60px;
+    padding: 30px 40px;
 }
 
 
@@ -129,12 +127,13 @@ input[type=number]::-webkit-inner-spin-button{
     justify-content: space-between;
 }
 .section-4 .amount p , .section-5 .price p{
-    font-size: 30px;
+    font-size: 25px;
     color:  hsl(172, 67%, 45%);
 }
 
 .type p{
     margin: 0;
+    font-size: 15px;
 }
 .type{
     /* margin-top: 20px; */
