@@ -5,9 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="desktop-design-style.css">
+  <link rel="stylesheet" href="Style/desktop-design-style.css" media="(min-width:980px)">
+  <link rel="stylesheet" href="Style/middle-design-style.css" media="(min-width:880px) and (max-width:979px)">
+  <link rel="stylesheet" href="Style/mobile-design-style.css" media="(max-width:879px)">  
   <title>Frontend Mentor | Tip calculator app</title>
-
+  <style>
+    @font-face{
+    src: url(Font/SpaceMono-Bold.ttf);
+    font-family: SpaceMono;
+    }
+  </style>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -66,7 +73,7 @@
         </div>
 
         <div class="amount">
-          <p class="amount-price">0.00</p>
+          <p class="amount-price">$0.00</p>
           <!-- <img src="images/icon-dollar.svg" alt=""> -->
         </div>
       </div>
@@ -80,7 +87,7 @@
         </div>
 
         <div class="price">
-          <p class="all-price">0.00</p>
+          <p class="all-price">$0.00</p>
           <!-- <img src="images/icon-dollar.svg" alt=""> -->
         </div>
       </div>

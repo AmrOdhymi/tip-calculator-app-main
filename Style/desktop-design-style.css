@@ -14,11 +14,11 @@ body{
     background-color: hsl(185, 41%, 84%);
     font-weight: bold;
     font-family: SpaceMono;
+    letter-spacing: 3px;
 }
 
-@font-face{
-    src: url(Font/SpaceMono-Bold.ttf);
-    font-family: SpaceMono;
+input{
+    cursor: pointer;
 }
 
 
@@ -100,6 +100,11 @@ body{
 .tip-box input::placeholder{
     text-align: center;
     color: hsl(186, 14%, 43%);
+}
+
+.tip-box input:hover{
+   background-color:  hsl(172, 48%, 56%);
+   color:  hsl(183, 100%, 15%);
 }
 
 

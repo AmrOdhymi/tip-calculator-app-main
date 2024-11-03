@@ -1,0 +1,167 @@
+body{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(185, 41%, 84%);
+    font-weight: bold;
+    font-family: SpaceMono;
+}
+
+input{
+    cursor: pointer;
+}
+
+
+.logo{
+    margin-bottom: 50px;
+}
+.contener{
+    background-color: white;
+    border-radius: 10px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+}
+
+
+.left-side{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+}
+.title{
+    text-align: start;
+    margin-bottom: 5px;
+    color: hsl(186, 14%, 43%);
+}
+
+.cross input{
+    width: 350px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsla(172, 67%, 45%, 0.208);
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cross{
+    position: relative;
+}
+.cross img{
+    position: absolute;
+    width: 15px;
+    left: 5%;
+    top: 60%;
+}
+
+.cross input:focus{
+    outline: none;
+    border: 3px solid hsl(172, 67%, 45%);
+}
+
+
+
+
+
+
+.section-2{
+    margin: 10px 0px;
+    width: 350px;
+}
+
+.tip-box{
+    display: grid;
+    grid-template-columns: repeat(2, 180px);
+    /* grid-template-rows: repeat(2, ); */
+    gap: 10px;
+}
+.tip-box input{
+    padding: 10px;
+    border: none;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.tip-box input::placeholder{
+    text-align: center;
+    color: hsl(186, 14%, 43%);
+}
+
+.tip-box input:hover{
+   background-color:  hsl(172, 48%, 56%);
+   color:  hsl(183, 100%, 15%);
+}
+
+
+.Number-People{
+    margin: 50px 0;
+}
+
+input[type=number]::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+
+
+
+.rghit-side{
+    width: 270px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 60px;
+}
+
+
+.section-4 , .section-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section-4 .amount p , .section-5 .price p{
+    font-size: 30px;
+    color:  hsl(172, 67%, 45%);
+}
+
+.type p{
+    margin: 0;
+}
+.type{
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rghit-side input{
+   background-color:  hsl(172, 67%, 45%);
+   border: none;
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: bold;
+   color:  hsl(183, 100%, 15%);
+}
+
+
+.type p:first-child{
+    color: white;
+}
+.type p:nth-child(2){
+    color:  hsl(184, 14%, 56%);
+}
+
+
+.section-4 .amount p , .section-5 .price p{
+
+}
