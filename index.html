@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="Style/desktop-design-style.css" media="(min-width:980px)">
-  <link rel="stylesheet" href="Style/middle-design-style.css" media="(min-width:880px) and (max-width:979px)">
-  <link rel="stylesheet" href="Style/mobile-design-style.css" media="(max-width:879px)">  
+  <link rel="stylesheet" href="Style/desktop-design-style.css" media="(min-width:950px)">
+  <!-- <link rel="stylesheet" href="Style/middle-design-style.css" media="(min-width:880px) and (max-width:979px)"> -->
+  <link rel="stylesheet" href="Style/mobile-design-style.css" media="(max-width:950px)">  
   <title>Frontend Mentor | Tip calculator app</title>
   <style>
     @font-face{
@@ -33,32 +33,32 @@
           
             <div class="section-1 cross">
               <p class="title">Bill</p>
-              <input type="number" min="0" placeholder="0">
+              <input class="bill" type="number" min="0" placeholder="0">
               <img src="images/icon-dollar.svg" alt="">
             </div>
 
             <div class="section-2">
               <p class="title">Select Tip %</p>
               <div class="tip-box">
-                <input type="button" value="5%">
-                <input type="button" value="10%">
-                <input type="button" value="15%">
-                <input type="button" value="25%">
-                <input type="button" value="50%">
-                <input style="background-color: hsl(185, 41%, 84%); color: hsl(183, 100%, 15%); text-align: end;" type="number" min="0" max="100" step="1"= placeholder="Custom">
+                <input class="toggle-btn"  type="button" value="5%">
+                <input class="toggle-btn"  type="button" value="10%">
+                <input class="toggle-btn"  type="button" value="15%">
+                <input class="toggle-btn"  type="button" value="25%">
+                <input class="toggle-btn"  type="button" value="50%">
+                <input class="tip_num" style="background-color: hsl(185, 41%, 84%); color: hsl(183, 100%, 15%); text-align: end;" type="number" min="0" max="100" step="1"= placeholder="Custom">
               </div>
             </div>
 
             <div class="section-3 cross">
-              <p class="title">Number of People</p>
-              <input type="number" min="0" step="1" placeholder="0">
+              <div class="tow_span">
+                <span class="title">Number of People</span>
+                <span class="not_zero">Con't to be zero</span>
+              </div>
+              <input class="People_num" type="number" min="0" step="1" placeholder="0">
               <img src="images/icon-person.svg">
             </div>
 
         </div>
-
-
-
 
 
 
@@ -93,113 +93,13 @@
       </div>
 
 
-      <input type="button" value="RESET">
+      <input class="reset" type="button" value="RESET">
 
     </div>
 
   </div>
 
-
-
-
-  <!-- <img class="logo" src="images/logo.svg" alt="">
-
-  <div class="contener">
-
-    <div class="left-side">
-
-        <div class="bill num">
-          <p class="title-p">Bill</p>
-          <input type="text">
-          <img src="images/icon-dollar.svg" alt="">
-        </div>
-
-        <div class="tip">
-          <p class="title-p">Select Tip %</p>
-          <div class="tip-box">
-            <input type="button" value="5%">
-            <input type="button" value="10%">
-            <input type="button" value="15%">
-            <input type="button" value="25%">
-            <input type="button" value="50%">
-            <input type="text" placeholder="Custom">
-          </div>
-        </div>
-
-        <div class="Number-People num">
-          <p class="title-p">Number of People</p>
-          <input type="text">
-          <img src="images/icon-person.svg">
-        </div>
-
-    </div>
-
-
-
-    <div class="rghit-side">
-
-      <div class="tip-amount">
-        <div class="type">
-          <p>Tip Amount</p>
-          <p>/ person</p>
-        </div>
-
-        <div class="amount">
-          <p class="amount-price">0.00</p>
-          <img src="images/icon-dollar.svg" alt="">
-        </div>
-      </div>
-
-
-
-      <div class="total">
-        <div class="type">
-          <p>Total</p>
-          <p>/ person</p>
-        </div>
-
-        <div class="price">
-          <p class="all-price">0.00</p>
-          <img src="images/icon-dollar.svg" alt="">
-        </div>
-      </div>
-
-
-      <input type="button" value="Reset">
-
-    </div>
-
-  </div> -->
-
-
-
-
-
-
-
-
-
-
-
-  <!-- Bill
-
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
-
-  Number of People
-
-  Tip Amount
-  / person
-
-  Total
-  / person
-
-  Reset -->
+<script src="script/main.js"></script>
   
 </body>
 </html>

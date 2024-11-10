@@ -19,7 +19,7 @@ input{
 .contener{
     background-color: white;
     border-radius: 10px;
-    width: 375px;
+    /* width: 375px; */
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -52,6 +52,7 @@ input{
 }
 .cross{
     position: relative;
+    margin: auto;
 }
 .cross img{
     position: absolute;
@@ -71,8 +72,9 @@ input{
 
 
 .section-2{
-    margin: 10px 0px 50px;
+    margin: 10px auto 50px;
     position: relative;
+    width: 355px;
 }
 
 .tip-box{
@@ -96,8 +98,8 @@ input{
 }
 
 .tip-box input:hover{
-   background-color:  hsl(172, 48%, 56%);
-   color:  hsl(183, 100%, 15%);
+    background-color:  hsl(185, 41%, 84%);
+    color:  hsl(183, 100%, 15%);
 }
 
 
@@ -140,6 +142,8 @@ input[type=number]::-webkit-inner-spin-button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 20px;
+    width: 100px;
 }
 
 .rghit-side input{
@@ -161,6 +165,32 @@ input[type=number]::-webkit-inner-spin-button{
 }
 
 
-.section-4 .amount p , .section-5 .price p{
 
+
+
+
+.not_zero{
+    visibility: hidden;
+}
+
+.section-3{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.section-3 .title{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+.tow_span{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.toggle-btn.active{
+    background-color:  hsl(172, 48%, 56%);
 }

@@ -28,14 +28,14 @@ input{
 .contener{
     background-color: white;
     border-radius: 10px;
-    width: 800px;
+    /* width: 800px; */
     display: flex;
     flex-direction: row;
     padding: 40px;
     gap: 20px;
 }
 .left-side{
-    /* width: 450px; */
+    width: 450px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -120,7 +120,7 @@ input[type=number]::-webkit-inner-spin-button{
 
 
 .rghit-side{
-    width: 450px;
+    /* width: 450px; */
     background-color: hsl(183, 100%, 15%);
     border-radius: 20px;
     display: flex;
@@ -148,6 +148,7 @@ input[type=number]::-webkit-inner-spin-button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 30px;
 }
 
 .rghit-side input{
@@ -158,6 +159,7 @@ input[type=number]::-webkit-inner-spin-button{
    font-size: 15px;
    font-weight: bold;
    color:  hsl(183, 100%, 15%);
+   margin-top: 50px;
 }
 
 
@@ -168,6 +170,17 @@ input[type=number]::-webkit-inner-spin-button{
     color:  hsl(184, 14%, 56%);
 }
 
+.not_zero{
+    visibility: hidden;
+}
+
+.section-3{
+    margin-top: 10px;
+}
+.section-3 .title{
+    margin-bottom: 10px;
+    display: inline-block;
+}
 
 
 
